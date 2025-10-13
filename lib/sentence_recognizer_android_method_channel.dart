@@ -8,7 +8,7 @@ class MethodChannelPhoneticSpeechRecognizer
     extends PhoneticSpeechRecognizerPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('alpha_num_recognizer_android');
+  final methodChannel = const MethodChannel('sentence_recognizer_android');
 
   @override
   Future<String?> getPlatformVersion() async {

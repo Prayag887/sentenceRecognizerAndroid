@@ -32,7 +32,7 @@ class SentenceRecognizerAndroid {
   List<int> correctPronouncationList = [];
 
   static const MethodChannel _channel =
-      MethodChannel('alpha_num_recognizer_android');
+      MethodChannel('sentence_recognizer_android');
 
   static const EventChannel _downloadProgressChannel =
       EventChannel('download_model_progress');
@@ -86,7 +86,7 @@ class SentenceRecognizerAndroid {
 // The supporting function that gets the raw data stream
   Stream<dynamic> getDataStream() {
     final EventChannel _eventChannel =
-        EventChannel('alpha_num_recognizer_android/partial_results');
+        EventChannel('sentence_recognizer_android/partial_results');
     return _eventChannel.receiveBroadcastStream();
   }
 

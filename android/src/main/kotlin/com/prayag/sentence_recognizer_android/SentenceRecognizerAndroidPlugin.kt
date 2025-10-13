@@ -1,4 +1,4 @@
-package com.prayag.alpha_num_recognizer_android
+package com.prayag.sentence_recognizer_android
 
 import android.Manifest
 import android.app.Activity
@@ -47,11 +47,11 @@ class SentenceRecognizerAndroidPlugin : FlutterPlugin, MethodChannel.MethodCallH
 
   override fun onAttachedToEngine(binding: FlutterPlugin.FlutterPluginBinding) {
     context = binding.applicationContext
-    channel = MethodChannel(binding.binaryMessenger, "alpha_num_recognizer_android")
+    channel = MethodChannel(binding.binaryMessenger, "sentence_recognizer_android")
     channel.setMethodCallHandler(this)
 
     // Initialize the event channel for streaming partial results
-    eventChannel = EventChannel(binding.binaryMessenger, "alpha_num_recognizer_android/partial_results")
+    eventChannel = EventChannel(binding.binaryMessenger, "sentence_recognizer_android/partial_results")
     eventChannel.setStreamHandler(this)
 
     // Initialize LanguageHandlersSentence with plugin instance reference

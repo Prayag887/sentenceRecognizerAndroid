@@ -1,5 +1,5 @@
-name: alpha_num_recognizer_android_example
-description: "Demonstrates how to use the alpha_num_recognizer_android plugin."
+name: sentence_recognizer_android_example
+description: "Demonstrates how to use the sentence_recognizer_android plugin."
 environment:
   sdk: ^3.6.0
 
@@ -9,7 +9,7 @@ dependencies:
   flutter_sound: ^9.28.0
   path_provider: ^2.1.2
 
-  alpha_num_recognizer_android:
+  sentence_recognizer_android:
     path: ../
 
   cupertino_icons: ^1.0.8

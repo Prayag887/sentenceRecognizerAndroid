@@ -1,4 +1,4 @@
-package com.prayag.alpha_num_recognizer_android
+package com.prayag.sentence_recognizer_android
 
 import com.google.firebase.crashlytics.buildtools.reloc.org.apache.commons.codec.language.DoubleMetaphone
 import org.apache.commons.text.similarity.JaroWinklerDistance

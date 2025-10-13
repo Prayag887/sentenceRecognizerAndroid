@@ -1,4 +1,4 @@
-# alpha_num_recognizer_android
+# sentence_recognizer_android
 ## Works for android projects only, iOS support will be provided later
 
 A new Flutter plugin project.

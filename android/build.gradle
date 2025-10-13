@@ -1,4 +1,4 @@
-group = "com.prayag.alpha_num_recognizer_android"
+group = "com.prayag.sentence_recognizer_android"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -30,7 +30,7 @@ apply plugin: "kotlin-android"
 
 
 android {
-    namespace = "com.prayag.alpha_num_recognizer_android"
+    namespace = "com.prayag.sentence_recognizer_android"
 
     compileSdk = 34
 

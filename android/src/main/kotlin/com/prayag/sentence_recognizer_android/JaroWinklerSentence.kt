@@ -1,4 +1,4 @@
-package com.prayag.alpha_num_recognizer_android
+package com.prayag.sentence_recognizer_android
 // mostly used for spelling checks and corrections
 
 class JaroWinklerSentence {

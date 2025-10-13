@@ -1,4 +1,4 @@
-package com.prayag.alpha_num_recognizer_android
+package com.prayag.sentence_recognizer_android
 
 object PhoneticMappingSentence {
     // Japanese alphabet mapping

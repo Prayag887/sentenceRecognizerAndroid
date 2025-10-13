@@ -1,4 +1,4 @@
-import 'package:alpha_num_recognizer_android/alpha_num_recognizer_android_method_channel.dart';
+import 'package:sentence_recognizer_android/sentence_recognizer_android_method_channel.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -7,7 +7,7 @@ void main() {
 
   MethodChannelPhoneticSpeechRecognizer platform =
       MethodChannelPhoneticSpeechRecognizer();
-  const MethodChannel channel = MethodChannel('alpha_num_recognizer_android');
+  const MethodChannel channel = MethodChannel('sentence_recognizer_android');
 
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger

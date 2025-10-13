@@ -1,4 +1,4 @@
-package com.prayag.alpha_num_recognizer_android
+package com.prayag.sentence_recognizer_android
 
 class LevenshteinDistanceSentence {
     fun calculate(s1: String, s2: String): Int {

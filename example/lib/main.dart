@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:developer';
 
-import 'package:alpha_num_recognizer_android/sentence_recognizer_android.dart';
-import 'package:alpha_num_recognizer_android_example/randomsetencegenerator.dart';
+import 'package:sentence_recognizer_android/sentence_recognizer_android.dart';
+import 'package:sentence_recognizer_android_example/randomsetencegenerator.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';

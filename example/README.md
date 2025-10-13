@@ -1,6 +1,6 @@
-# alpha_num_recognizer_android_example
+# sentence_recognizer_android_example
 
-Demonstrates how to use the alpha_num_recognizer_android plugin.
+Demonstrates how to use the sentence_recognizer_android plugin.
 
 ## Getting Started
 
