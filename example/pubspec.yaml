@@ -1,0 +1,25 @@
+name: alpha_num_recognizer_android_example
+description: "Demonstrates how to use the alpha_num_recognizer_android plugin."
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_sound: ^9.28.0
+  path_provider: ^2.1.2
+
+  alpha_num_recognizer_android:
+    path: ../
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+
