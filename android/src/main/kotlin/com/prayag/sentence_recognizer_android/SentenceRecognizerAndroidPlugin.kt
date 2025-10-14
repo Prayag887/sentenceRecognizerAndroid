@@ -139,14 +139,7 @@ class SentenceRecognizerAndroidPlugin : FlutterPlugin, MethodChannel.MethodCallH
 
         try {
           when (type) {
-            "alphabet" -> LanguageHandlersSentence.handleAlphabetRecognition(timeoutMillis)
-            "koreanAlphabet" -> LanguageHandlersSentence.handleKoreanAlphabetRecognition(timeoutMillis)
-            "number" -> LanguageHandlersSentence.handleNumberRecognition(timeoutMillis, sentence)
             "englishWordsOrSentence" -> LanguageHandlersSentence.handleWordsRecognition(languageCode, timeoutMillis, sentence)
-            "japaneseAlphabet" -> LanguageHandlersSentence.handleJapaneseRecognition(timeoutMillis, "hiragana")
-            "koreanNumber" -> LanguageHandlersSentence.handleKoreanNumberRecognition(timeoutMillis, "katakana")
-            "allLanguageSupport" -> LanguageHandlersSentence.handleAllLanguages(timeoutMillis, languageCode)
-            "paragraphsMapping" -> LanguageHandlersSentence.handleParagraphMapping(languageCode, timeoutMillis, sentence)
             else -> {
               activeResult?.error("INVALID_TYPE", "Unsupported type", null)
               activeResult = null
